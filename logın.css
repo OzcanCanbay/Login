@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Righteous;
+    src: url(Righteous-Regular.ttf);
+}
+@font-face{
+    font-family: greatvibes;
+    src: url(GreatVibes-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.Kapsayıcı{
+    background-size: 100% 100% ;
+    height: 100vh;
+    background-image: url(resim3.jpg)
+    user-select: none;
+}
+.Kapsayıcı .navbar{
+    width: 100%;
+    height: 80px;
+    background-image: url(resim3.jpg);
+    background-size: 100% 100% ;
+    height: 100vh;
+    user-select: none;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    user-select: none;
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:white;
+    user-select: none;
+}
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+    user-select: none;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 10px;
+    line-height: 20px;
+    user-select: none;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Righteous;
+    user-select: none;
+}
+.navbar ul li a:hover{
+    background-color: #87ceeb;
+    border-radius: 9px;
+    user-select: none;
+}
+.Kapsayıcı .Center{
+    position: absolute;
+    top:20%;
+    left: 46%;
+    transform: translate(-50½,-50½);
+    color: white;
+    font-family: Righteous;
+    user-select: none;
+}
+.Kapsayıcı .button{
+    position: absolute;
+    top:50%;
+    left: 48.2%;
+    user-select: none;
+}
+.Kapsayıcı .input{
+    position: absolute;
+    top:30%;
+    left: 46%;
+    user-select: none;
+}
+
+.Kapsayıcı .input2{
+    left: 46%;
+    position: absolute;
+    top:40%;
+    user-select: none;
+}
+.navbar .logo a{
+    font-family: greatvibes;
+    font-weight: 400;
+    font-size: xx-large;
+    padding: 6px 13px;
+    text-decoration: none;
+    user-select: none;
+}
